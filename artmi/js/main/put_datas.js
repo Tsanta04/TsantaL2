@@ -1,4 +1,4 @@
-// localStorage.clear();
+localStorage.clear();
 
 // All functions
 
@@ -24,7 +24,7 @@ function putAnotherData(){
     if((localStorage.getItem("favorite_number")!="")&&(localStorage.getItem("favorite_number")!=null))fav_num[0].innerHTML=fav_num[1].innerHTML=localStorage.getItem("favorite_number");
     if((localStorage.getItem("cart_number")!="")&&(localStorage.getItem("cart_number")!=null))cart_num[0].innerHTML=cart_num[1].innerHTML=localStorage.getItem("cart_number");
     if((localStorage.getItem("cart_content")!="")&&(localStorage.getItem("cart_content")!=null))card_list.innerHTML=card_list.innerHTML=localStorage.getItem("cart_content");    
-    if((localStorage.getItem("cart_summary")!="")&&(localStorage.getItem("cart_summary")!=null))cart_summary.innerHTML=localStorage.getItem("cart_summary");    
+    if((localStorage.getItem("cart_summary")!="")&&(localStorage.getItem("cart_summary")!=null))cart_summary.innerHTML=localStorage.getItem("cart_summary");
 }
 
 // List all type of collections
@@ -479,6 +479,19 @@ function card_show_it(e){
             test++;            
         }
     });
+    if(e.target==chkout){
+        e.preventDefault();
+        // document.querySelector(".amado_product_area").style.display="none";
+        document.querySelector(".shop_sidebar_area").style.display="none";
+        document.getElementById("srt").style.opacity="0";
+        more_detail.style.display="none";
+        shop_content.style.display="none";
+        cart_table.style.display="none";
+        home.style.display="none";
+        checkout.style.display="block";
+        paginate.style.display="none";
+        document.getElementById("srt").style.opacity="0";
+    }
     if(test==0){
         shop_content.title="0";            
     }
