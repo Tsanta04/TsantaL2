@@ -137,13 +137,12 @@ update_card_btn.addEventListener("click",function(e){
 // Show favorites (adorEs)
 show_fav.forEach(sh_fav => {
     sh_fav.addEventListener("click",function(){
-
         if(shop_content.title=="1"){
             show_menu();
             shop_content.title="0";            
         }
         else if((shop_content.title="0")||(shop_content.title="")){
-            show_shop();
+            putDatas();
             const elts = shop_content.childNodes;
             console.log(elts[0].querySelector(".put_fav i"));
             for(let i=0;i<elts.length;i++){
@@ -153,6 +152,8 @@ show_fav.forEach(sh_fav => {
             }
             shop_content.title="1";            
         }
+        // paginate.style.display="none";
+        document.getElementById("srt").style.opacity="0";
     });        
 });
 
