@@ -1,0 +1,338 @@
+[
+
+    {
+        "img":"img/Photographie/1.jpg",
+        "img1":"img/Photographie/1p.jpg",
+        "nom":"Femme-3",
+        "artiste":"Perlin Rodin",
+        "prix":"20000Ar",
+        "detail":"L'achat pour les 2 colletions <br>Prise en 2020",
+        "type":"Photographie",
+        "stock":3,
+        "status":"Meilleurs produits"
+    },
+    {
+        "img":"img/Photographie/2.jpg",
+        "img1":"img/Photographie/2p.jpg",
+        "nom":"Bicyclette",
+        "artiste":"Mali Rodin",
+        "prix":"10000Ar",
+        "detail":"L'achat pour les 2 colletions <br>Prise en 2022",
+        "type":"Photographie",
+        "stock":4,
+        "status":"Meilleurs produits"
+    },
+    {
+        "img":"img/Photographie/3.jpg",
+        "img1":"img/Photographie/3p.jpg",
+        "nom":"Paysage",
+        "artiste":"Auguste Art",
+        "prix":"40000Ar",
+        "detail":"L'achat pour les 2 colletions <br>Prise en 2023-2024",
+        "type":"Photographie",
+        "stock":3,
+        "status":"Recommandes"
+    },
+    {
+        "img":"img/Photographie/4.jpg",
+        "img1":"img/Photographie/4p.jpg",
+        "nom":"Home",
+        "artiste":"Ali Manie",
+        "prix":"20000Ar",
+        "detail":"L'achat pour les 2 colletions <br>Prise en 2004",
+        "type":"Photographie",
+        "stock":1,
+        "status":"Recommandes"
+    },
+    {
+        "img":"img/Photographie/5.jpg",
+        "img1":"img/Photographie/5p.jpg",
+        "nom":"Shadow",
+        "artiste":"Auguste Rodin",
+        "prix":"40000Ar",
+        "detail":"L'achat pour les 2 colletions <br>Prise en 2020",
+        "type":"Photographie",
+        "stock":4,
+        "status":"Coup de coeur"
+    },
+    {
+        "img":"img/Photographie/6.jpg",
+        "img1":"img/Photographie/6p.jpg",
+        "nom":"Chine",
+        "artiste":"Marie Label",
+        "prix":"50000Ar",
+        "detail":"L'achat pour les 2 colletions <br>Prise en 2022",
+        "type":"Photographie",
+        "stock":4,
+        "status":"Coup de coeur"
+    },
+
+    {
+        "img":"img/Sculpture/1.jpg",
+        "img1":"img/Sculpture/1p.jpeg",
+        "nom":"Art-ostique",
+        "artiste":"Perlin Rodin",
+        "prix":"20000Ar",
+        "detail":"L'achat pour les 2 colletions <br>Sculpture inspirE par la guerre en 1914",
+        "type":"Sculpture",
+        "stock":3,
+        "status":"Meilleurs produits"
+    },
+    {
+        "img":"img/Sculpture/2.jpg",
+        "img1":"img/Sculpture/2p.jpg",
+        "nom":"Vie-triste",
+        "artiste":"Mali Rodin",
+        "prix":"10000Ar",
+        "detail":"L'achat pour les 2 colletions <br>Sculpture inspirE par la vie d'un homme appele Rakoto Nandrasana",
+        "type":"Sculpture",
+        "stock":4,
+        "status":"Meilleurs produits"
+    },
+    {
+        "img":"img/Sculpture/3.jpg",
+        "img1":"img/Sculpture/3.jpg",
+        "nom":"Amour",
+        "artiste":"Auguste Art",
+        "prix":"40000Ar",
+        "detail":"L'amour qui est indestructible",
+        "type":"Sculpture",
+        "stock":3,
+        "status":"Recommandes"
+    },
+    {
+        "img":"img/Sculpture/4.jpg",
+        "img1":"img/Sculpture/4p.jpg",
+        "nom":"Bonhomme-1",
+        "artiste":"Ali Manie",
+        "prix":"20000Ar",
+        "detail":"L'achat pour les 2 colletions <br>Faite en 2004",
+        "type":"Sculpture",
+        "stock":1,
+        "status":"Recommandes"
+    },
+    {
+        "img":"img/Sculpture/5.jpg",
+        "img1":"img/Sculpture/5p.jpg",
+        "nom":"Main",
+        "artiste":"Auguste Rodin",
+        "prix":"40000Ar",
+        "detail":"L'achat pour les 2 colletions <br>Faite en 2020",
+        "type":"Sculpture",
+        "stock":6,
+        "status":"Coup de coeur"
+    },
+    {
+        "img":"img/Sculpture/6.jpg",
+        "img1":"img/Sculpture/6p.jpg",
+        "nom":"Art-inconnu-2",
+        "artiste":"Marie Label",
+        "prix":"50000Ar",
+        "detail":"L'achat pour les 2 colletions <br>Faite en 2022",
+        "type":"Sculpture",
+        "stock":4,
+        "status":"Coup de coeur"
+    },
+
+
+    {
+        "img":"img/Peinture/1.jpg",
+        "img1":"img/Peinture/1p.jpg",
+        "nom":"Art-Africain",
+        "artiste":"Perlin Rodin",
+        "prix":"20000Ar",
+        "detail":"L'achat pour les 2 colletions <br>Fait en 2020",
+        "type":"Peinture",
+        "stock":3,
+        "status":"Meilleurs produits"
+    },
+    {
+        "img":"img/Peinture/2.jpeg",
+        "img1":"img/Peinture/2p.webp",
+        "nom":"Femme-2",
+        "artiste":"Mali Rodin",
+        "prix":"10000Ar",
+        "detail":"L'achat pour les 2 colletions <br>Fait en 2022",
+        "type":"Peinture",
+        "stock":4,
+        "status":"Meilleurs produits"
+    },
+    {
+        "img":"img/Peinture/3.jpg",
+        "img1":"img/Peinture/3p.jpg",
+        "nom":"Couleur",
+        "artiste":"Auguste Art",
+        "prix":"40000Ar",
+        "detail":"L'achat pour les 2 colletions <br>Fait en 2024",
+        "type":"Peinture",
+        "stock":3,
+        "status":"Recommandes"
+    },
+    {
+        "img":"img/Peinture/4.jpg",
+        "img1":"img/Peinture/4p.jpg",
+        "nom":"L-or",
+        "artiste":"Ali Manie",
+        "prix":"20000Ar",
+        "detail":"L'achat pour les 2 colletions <br>Fait en 2004",
+        "type":"Peinture",
+        "stock":2,
+        "status":"Recommandes"
+    },
+    {
+        "img":"img/Peinture/5.jpg",
+        "img1":"img/Peinture/5p.jpg",
+        "nom":"Art-inconnu-1",
+        "artiste":"Auguste Rodin",
+        "prix":"40000Ar",
+        "detail":"L'achat pour les 2 colletions <br>Fait en 2020",
+        "type":"Peinture",
+        "stock":4,
+        "status":"Coup de coeur"
+    },
+    {
+        "img":"img/Peinture/6.jpg",
+        "img1":"img/Peinture/6p.jpg",
+        "nom":"Blackie",
+        "artiste":"Marie Label",
+        "prix":"50000Ar",
+        "detail":"L'achat pour les 2 colletions <br>Fait en 2022",
+        "type":"Peinture",
+        "stock":4,
+        "status":"Coup de coeur"
+    },
+
+    {
+        "img":"img/Oeuvre/1.jpg",
+        "img1":"img/Oeuvre/1p.jpg",
+        "nom":"Femme-1",
+        "artiste":"Perlin Rodin",
+        "prix":"20000Ar",
+        "detail":"L'achat pour les 2 colletions <br>Prise en 2020",
+        "type":"Oeuvre",
+        "stock":3,
+        "status":"Meilleurs produits"
+    },
+    {
+        "img":"img/Oeuvre/2.jpg",
+        "img1":"img/Oeuvre/2p.jpg",
+        "nom":"Puzzle",
+        "artiste":"Mali Rodin",
+        "prix":"10000Ar",
+        "detail":"L'achat pour les 2 colletions <br>Prise en 2022",
+        "type":"Oeuvre",
+        "stock":4,
+        "status":"Meilleurs produits"
+    },
+    {
+        "img":"img/Oeuvre/3.jpg",
+        "img1":"img/Oeuvre/3p.jpg",
+        "nom":"Modernisme",
+        "artiste":"Auguste Art",
+        "prix":"40000Ar",
+        "detail":"L'achat pour les 2 colletions <br>Prise en 2023-2024",
+        "type":"Oeuvre",
+        "stock":3,
+        "status":"Recommandes"
+    },
+    {
+        "img":"img/Oeuvre/4.jpg",
+        "img1":"img/Oeuvre/4p.jpg",
+        "nom":"Tableau-1",
+        "artiste":"Ali Manie",
+        "prix":"20000Ar",
+        "detail":"L'achat pour les 2 colletions <br>Prise en 2004",
+        "type":"Oeuvre",
+        "stock":1,
+        "status":"Recommandes"
+    },
+    {
+        "img":"img/Oeuvre/5.jpg",
+        "img1":"img/Oeuvre/5p.jpg",
+        "nom":"Fleur",
+        "artiste":"Auguste Rodin",
+        "prix":"40000Ar",
+        "detail":"L'achat pour les 2 colletions <br>Prise en 2020",
+        "type":"Photographie",
+        "stock":4,
+        "status":"Coup de coeur"
+    },
+    {
+        "img":"img/Oeuvre/6.jpg",
+        "img1":"img/Oeuvre/6p.jpg",
+        "nom":"Homme-1",
+        "artiste":"Marie Label",
+        "prix":"50000Ar",
+        "detail":"L'achat pour les 2 colletions <br>Prise en 2022",
+        "type":"Oeuvre",
+        "stock":4,
+        "status":"Coup de coeur"
+    },
+
+    {
+        "img":"img/Dessin/1.jpg",
+        "img1":"img/Dessin/1.jpg",
+        "nom":"Fille-1",
+        "artiste":"Perlin Rodin",
+        "prix":"20000Ar",
+        "detail":"DessinE en 2013",
+        "type":"Dessin",
+        "stock":3,
+        "status":"Meilleurs produits"
+    },
+    {
+        "img":"img/Dessin/2.jpeg",
+        "img1":"img/Dessin/2.jpeg",
+        "nom":"Fille-2",
+        "artiste":"Mali Rodin",
+        "prix":"10000Ar",
+        "detail":"DessinE en 2013",
+        "type":"Dessin",
+        "stock":4,
+        "status":"Meilleurs produits"
+    },
+    {
+        "img":"img/Dessin/3.jpg",
+        "img1":"img/Dessin/3.jpg",
+        "nom":"Fille-3",
+        "artiste":"Auguste Art",
+        "prix":"40000Ar",
+        "detail":"DessinE en 2013",
+        "type":"Dessin",
+        "stock":3,
+        "status":"Recommandes"
+    },
+    {
+        "img":"img/Dessin/4.jpeg",
+        "img1":"img/Dessin/4.jpeg",
+        "nom":"Fille-4",
+        "artiste":"Ali Manie",
+        "prix":"20000Ar",
+        "detail":"DessinE en 2004",
+        "type":"Dessin",
+        "stock":1,
+        "status":"Recommandes"
+    },
+    {
+        "img":"img/Dessin/5.jpg",
+        "img1":"img/Dessin/5.jpg",
+        "nom":"Fille-5",
+        "artiste":"Auguste Rodin",
+        "prix":"40000Ar",
+        "detail":"DessinE en 2020",
+        "type":"Dessin",
+        "stock":6,
+        "status":"Coup de coeur"
+    },
+    {
+        "img":"img/Dessin/6.jpg",
+        "img1":"img/Dessin/6.jpg",
+        "nom":"Homme-2",
+        "artiste":"Marie Label",
+        "prix":"50000Ar",
+        "detail":"DessinE en 2022",
+        "type":"Dessin",
+        "stock":4,
+        "status":"Coup de coeur"
+    }
+]
