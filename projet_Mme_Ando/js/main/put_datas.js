@@ -24,7 +24,10 @@ function putAnotherData(){
     if((localStorage.getItem("favorite_number")!="")&&(localStorage.getItem("favorite_number")!=null))fav_num[0].innerHTML=fav_num[1].innerHTML=localStorage.getItem("favorite_number");
     if((localStorage.getItem("cart_number")!="")&&(localStorage.getItem("cart_number")!=null))cart_num[0].innerHTML=cart_num[1].innerHTML=localStorage.getItem("cart_number");
     if((localStorage.getItem("cart_content")!="")&&(localStorage.getItem("cart_content")!=null))card_list.innerHTML=card_list.innerHTML=localStorage.getItem("cart_content");    
-    if((localStorage.getItem("cart_summary")!="")&&(localStorage.getItem("cart_summary")!=null))cart_summary.innerHTML=localStorage.getItem("cart_summary");
+    subtotal_checkout.innerHTML = localStorage.getItem("total");
+    total_checkout.innerHTML = ((parseInt(localStorage.getItem("total")))+1000)+"Ar";
+    subtotal.innerHTML = localStorage.getItem("total");
+    total.innerHTML = ((parseInt(localStorage.getItem("total")))+1000)+"Ar";
 }
 
 // List all type of collections
@@ -293,7 +296,7 @@ function recu(){
     total_checkout.innerHTML = (ttl+1000)+"Ar";
     subtotal.innerHTML = ttl+"Ar";
     total.innerHTML = (ttl+1000)+"Ar";
-    localStorage.setItem("cart_summary",cart_summary.innerHTML);
+    localStorage.setItem("total",(ttl)+"Ar");
 }
 
 // To give datas in the json
