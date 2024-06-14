@@ -8,6 +8,7 @@ const gallery_img = document.getElementById("gallery_img");
 const home = document.getElementById("home");
 const checkout = document.getElementById("checkout");
 
+const cart_summary = document.getElementById("cart-summary");
 const menu_home = document.getElementById("menu_home");
 const menu_shop = document.getElementById("menu_shop");
 const menu_cart = document.getElementById("menu_cart");
@@ -39,7 +40,7 @@ const subtotal = document.getElementById("subtotal");
 const total = document.getElementById("total");
 const subtotal_checkout = document.getElementById("subtotal_checkout");
 const total_checkout = document.getElementById("total_checkout");
-const chkout = document.getElementById("chkout");
+var chkout = document.getElementById("chkout");
 
 // Promo
 const promo_input = document.getElementById("promo-input");
