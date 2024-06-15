@@ -109,6 +109,7 @@ remove_card_btn.addEventListener("click",function(e){
     shop_content.querySelector("[accessKeyLabel='"+more_detail.querySelector(".nom").innerHTML+"']").style.display="block";
     shop_content.querySelector("[accessKeyLabel='"+more_detail.querySelector(".nom").innerHTML+"']").max = "";
 
+    recu();
     register("remove-cart",more_detail.querySelector(".nom").innerHTML);
     more_detail.style.display="none";
     shop_content.style.display="flex";

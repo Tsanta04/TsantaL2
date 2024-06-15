@@ -1,4 +1,4 @@
-localStorage.clear();
+// localStorage.clear();
 
 // All functions
 
@@ -25,9 +25,15 @@ function putAnotherData(){
     if((localStorage.getItem("cart_number")!="")&&(localStorage.getItem("cart_number")!=null))cart_num[0].innerHTML=cart_num[1].innerHTML=localStorage.getItem("cart_number");
     if((localStorage.getItem("cart_content")!="")&&(localStorage.getItem("cart_content")!=null))card_list.innerHTML=card_list.innerHTML=localStorage.getItem("cart_content");    
     subtotal_checkout.innerHTML = localStorage.getItem("total");
-    total_checkout.innerHTML = ((parseInt(localStorage.getItem("total")))+1000)+"Ar";
     subtotal.innerHTML = localStorage.getItem("total");
-    total.innerHTML = ((parseInt(localStorage.getItem("total")))+1000)+"Ar";
+    if((parseInt(localStorage.getItem("total")))==0){
+        total.innerHTML="0Ar";
+        total_checkout.innerHTML = "0Ar";
+    }
+    else if((parseInt(localStorage.getItem("total")))!=0){
+        total.innerHTML = ((parseInt(localStorage.getItem("total")))+1000)+"Ar";
+        total_checkout.innerHTML = ((parseInt(localStorage.getItem("total")))+1000)+"Ar";
+    } 
 }
 
 // List all type of collections
@@ -293,9 +299,15 @@ function recu(){
     }
 
     subtotal_checkout.innerHTML = ttl+"Ar";
-    total_checkout.innerHTML = (ttl+1000)+"Ar";
     subtotal.innerHTML = ttl+"Ar";
-    total.innerHTML = (ttl+1000)+"Ar";
+    if(ttl==0){
+        total_checkout.innerHTML = (ttl)+"Ar";
+        total.innerHTML = (ttl)+"Ar";
+    }
+    else{
+        total_checkout.innerHTML = (ttl+1000)+"Ar";  
+        total.innerHTML = (ttl+1000)+"Ar";
+    } 
     localStorage.setItem("total",(ttl)+"Ar");
 }
 
