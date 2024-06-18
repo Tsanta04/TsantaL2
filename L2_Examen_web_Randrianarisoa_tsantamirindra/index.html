@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon bibliothèque</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div id="head">
+            <button id="add">Ajouter un livre</button>
+            <p>Mon bibliothèque</p>
+            <button id="l">List des livres existants</button>
+        </div>
+    </header>    
+    <main>
+        <div class="esp">tt</div>
+        <section role="lister" class="list" id="lst">
+            <nav role="Categorie" class="categ">
+                <h2>Les categories</h2> 
+                <div>
+                    <input type="text" name="cat" id="c">
+                    <button id="b">Add</button>
+                </div>
+
+                <ul id="ul"> 
+                </ul>
+            </nav>
+            <section role="container de list" class="list-content">
+                <div role="Triage" class="trie">
+                    <label for="search">Rechercher</label><input type="text" name="search" id="s"/>
+                    <label for="trie date">Date de publication</label><input type="date" id="d">
+                </div>
+                <ul id="paginate">
+                    <li>1</li>
+                    <li>2</li>
+                </ul>
+                <div role="list" class="elt" id="livre">
+                    <figure>
+                        <img src="img/bd1.jpg" alt="">
+                        <figcaption>
+                            <p>Nom</p>
+                            <button>Detail</button>
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+        </section>
+        <section role="detail" class="detail" id="dtl">
+            <div id="image">
+                <img src="img/bd1.jpg" alt="">
+            </div>
+            <div role="details" >
+                <p>Titre: <span id="titre">Nom</span></p>
+                <p>Auteur: <span id="auteur">Auteur</span></p>
+                <p>Categorie: <span id="categorie">Categorie</span></p>
+                <p>Nombre de page: <span id="page">num page</span></p>
+                
+                <p>Editeur: <span id="editeur">Nom</span></p>
+                <p>Etat: <span id="etat">Auteur</span></p>
+                <p>Langue: <span id="langue">Categorie</span></p>
+                <p>Reference: <span id="isbn">num page</span></p>
+                <p>Emplacement: <span id="emplacement">Date de publication</span></p>
+
+                <p>Date de publication: <span id="date">Date de publication</span></p>
+
+                <p>Commentaire: <span id="commentaire">Commentaire</span></p>                
+                <button id="modifier">Modifier les infos</button>
+                <button id="supprimer">Supprimer ce livre</button>
+                <button id="retourner">Retourner a la liste</button>
+            </div>
+        </section>
+        <section role="ajouter un livre ou modifier">
+            <form action="#" method="POST" autocomplete="on" class="form" id="frm">
+                <label for="nom">Titre:</label><input type="text" name="nom" required>
+                <label for="img">Image:</label><input type="file" name="img">
+                <label for="date">Date de publication:</label><input type="date" name="date" required>
+                <label for="nom">Auteur:</label><input type="text" name="auteur" required>
+                <label for="page">Nombre de page:</label><input type="number" name="page" min="2" required>
+
+                <label for="editeur">Editeur:</label><input type="text" name="editeur" required>
+                <label for="etat">Etat:</label>
+                    <select name="etat">
+                        <option>endommager</option>
+                        <option>bonne état</option>
+                    </select>
+                <label for="langue">Langue:</label>
+                    <select name="langue">
+                        <option>français</option>
+                        <option>anglais</option>
+                        <option>espagnol</option>
+                        <option>coréen</option>
+                    </select>
+                <label for="isbn">Reference:</label><input type="text" name="isbn">
+                <label for="emplacement">Emplacement:</label><input type="text" name="emplacement">
+
+                <label for="categorie">Categorie:</label>
+                <select name="categorie">
+                </select>
+                <label for="commentaire">Commentaire sur ce livre:</label><input type="text" name="commentaire">
+                <input type="submit" value="modifier" id="submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        &copy copyright Tsantamirindra Randrianarisoa
+    </footer>
+    <script src="js/global.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
